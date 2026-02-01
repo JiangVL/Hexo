@@ -15,6 +15,7 @@ timezone: Asia/shanghai
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.zhbi.top
 root: /
+relative_link: true
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -41,8 +42,8 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
-relative_link: false
+post_asset_folder: true
+relative_link: true
 future: true
 syntax_highlighter: highlight.js
 highlight:
