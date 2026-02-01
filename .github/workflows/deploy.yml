@@ -38,8 +38,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public
-          branch: gh-pages # 部署到 gh-pages 分支
-
-          
-permissions:
-  contents: write
+          branch: gh-pages # 部署到 gh-pages 分
