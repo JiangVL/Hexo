@@ -1,0 +1,343 @@
+.sea-anime-header {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sea-anime-stats {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: var(--sea-bg-soft);
+  border-radius: var(--sea-radius-lg);
+  border: 1px solid var(--sea-border);
+}
+
+.sea-anime-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.sea-anime-stat-item .label {
+  font-size: 0.75rem;
+  color: var(--sea-text-light);
+}
+
+.sea-anime-stat-item .value {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--sea-primary);
+}
+
+.sea-anime-filters {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.sea-anime-filter-btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: 1px solid var(--sea-border);
+  background-color: var(--sea-bg-card);
+  color: var(--sea-text-main);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.sea-anime-filter-btn:hover {
+  border-color: var(--sea-primary);
+  color: var(--sea-primary);
+}
+
+.sea-anime-filter-btn.active {
+  background-color: var(--sea-primary);
+  border-color: var(--sea-primary);
+  color: #fff;
+}
+
+.sea-anime-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  min-height: 400px;
+}
+
+.sea-anime-item {
+  display: flex;
+  background-color: var(--sea-bg-card);
+  border-radius: var(--sea-radius-lg);
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease, opacity 0.3s ease;
+  border: 1px solid var(--sea-border);
+}
+
+.sea-anime-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--sea-shadow-lg);
+  border-color: var(--sea-primary);
+}
+
+.sea-anime-cover-wrapper {
+  position: relative;
+  width: 140px;
+  aspect-ratio: 2 / 3;
+  flex-shrink: 0;
+  overflow: hidden;
+  background-color: var(--sea-bg-soft);
+}
+
+.sea-anime-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.sea-anime-cover.loaded {
+  opacity: 1;
+}
+
+.sea-anime-item:hover .sea-anime-cover {
+  transform: scale(1.1);
+}
+
+.sea-anime-status-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.7rem;
+  color: #fff;
+  border-bottom-right-radius: 0.75rem;
+  z-index: 1;
+  font-weight: bold;
+  backdrop-filter: blur(4px);
+}
+
+.sea-anime-status-watching { background-color: rgba(16, 185, 129, 0.9); }
+.sea-anime-status-completed { background-color: rgba(59, 130, 246, 0.9); }
+.sea-anime-status-planned { background-color: rgba(245, 158, 11, 0.9); }
+
+.sea-anime-info {
+  padding: 1.25rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  overflow: hidden;
+}
+
+.sea-anime-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sea-anime-title a {
+  color: var(--sea-text-main);
+  text-decoration: none;
+}
+
+.sea-anime-title a:hover {
+  color: var(--sea-primary);
+}
+
+.sea-anime-meta {
+  font-size: 0.8rem;
+  color: var(--sea-text-light);
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.sea-anime-meta span:not(:last-child)::after {
+  content: "·";
+  margin-left: 0.75rem;
+  opacity: 0.5;
+}
+
+.sea-anime-rating {
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+.sea-anime-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.2rem 0;
+}
+
+.sea-anime-genre-tag {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+  background-color: var(--sea-bg-soft);
+  color: var(--sea-text-light);
+  border-radius: 1rem;
+  border: 1px solid var(--sea-border);
+}
+
+.sea-anime-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 0.25rem 0;
+}
+
+.sea-anime-progress-bar-bg {
+  height: 6px;
+  background-color: var(--sea-bg-soft);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.sea-anime-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--sea-primary), #6ee7b7);
+  border-radius: 10px;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sea-anime-progress-text {
+  font-size: 0.75rem;
+  color: var(--sea-text-light);
+  font-weight: 500;
+}
+
+.sea-anime-desc {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--sea-text-light);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Skeleton Screen */
+.sea-anime-skeleton {
+  pointer-events: none;
+}
+
+.sea-anime-skeleton .sea-anime-cover-wrapper {
+  background: linear-gradient(90deg, var(--sea-bg-soft) 25%, var(--sea-border) 50%, var(--sea-bg-soft) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+.sea-anime-skeleton .sea-anime-title,
+.sea-anime-skeleton .sea-anime-meta,
+.sea-anime-skeleton .sea-anime-desc,
+.sea-anime-skeleton .sea-anime-progress-bar-bg {
+  background: linear-gradient(90deg, var(--sea-bg-soft) 25%, var(--sea-border) 50%, var(--sea-bg-soft) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+  color: transparent !important;
+}
+
+.sea-anime-skeleton .sea-anime-title { width: 70%; height: 1.5rem; }
+.sea-anime-skeleton .sea-anime-meta { width: 40%; height: 1rem; }
+.sea-anime-skeleton .sea-anime-desc { width: 100%; height: 3rem; }
+.sea-anime-skeleton .sea-anime-progress-bar-bg { width: 100%; height: 6px; }
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Loading Progress Bar */
+#sea-loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--sea-primary);
+  z-index: 9999;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px var(--sea-primary);
+}
+
+@media (max-width: 640px) {
+  .sea-anime-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .sea-anime-item {
+    flex-direction: column;
+  }
+  .sea-anime-cover-wrapper {
+    width: 100%;
+    height: 200px;
+  }
+  .sea-anime-status-badge {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+/* Load More Styles */
+.sea-anime-load-more-wrapper {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+}
+
+.sea-anime-load-more-btn {
+  padding: 0.75rem 2.5rem;
+  border-radius: 2rem;
+  border: 1px solid var(--sea-border);
+  background-color: var(--sea-bg-card);
+  color: var(--sea-text-main);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: var(--sea-shadow-sm);
+}
+
+.sea-anime-load-more-btn:hover {
+  border-color: var(--sea-primary);
+  color: var(--sea-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--sea-shadow-md);
+}
+
+.sea-anime-load-more-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--sea-text-light);
+  font-size: 0.875rem;
+}
+
+.sea-loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--sea-bg-soft);
+  border-top: 3px solid var(--sea-primary);
+  border-radius: 50%;
+  animation: sea-spin 1s linear infinite;
+}
+
+@keyframes sea-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

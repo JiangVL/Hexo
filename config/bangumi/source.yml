@@ -1,0 +1,6 @@
+sources:
+  - name: "我的 Bangumi 收藏"
+    plugin: "bangumi-tv"
+    url: "https://api.bgm.tv/v0/users/jinyijiang/collections?subject_type=2&limit=30"
+    config:
+      username: "jinyijiang"

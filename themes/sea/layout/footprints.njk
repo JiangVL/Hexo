@@ -4,48 +4,143 @@
     {{ render(page.content) }}
   </div>
 
-  <div class="sea-footprints-list">
+  <div class="sea-footprints-timeline">
     {% set footprints = load_config_data('footprints') %}
     {% for spot in footprints %}
-      <div class="sea-footprint-item">
-        <div class="sea-footprint-meta">
-          <span class="sea-footprint-date">{{ spot.date }}</span>
-          <span class="sea-footprint-location">{{ spot.location }}</span>
+      <div class="sea-footprint-node">
+        <div class="sea-footprint-dot"></div>
+        <div class="sea-footprint-content">
+          <div class="sea-footprint-header">
+            <span class="sea-footprint-date">{{ spot.date }}</span>
+            <span class="sea-footprint-location">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              {{ spot.location }}
+            </span>
+          </div>
+          <div class="sea-footprint-activity">{{ spot.activity }}</div>
+          {% if spot.images and spot.images.length > 0 %}
+            <div class="sea-footprint-gallery">
+              {% for img in spot.images %}
+                <div class="sea-footprint-image">
+                  <img src="{{ url_for(img) }}" alt="{{ spot.activity }}" loading="lazy">
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
-        <div class="sea-footprint-activity">{{ spot.activity }}</div>
       </div>
     {% endfor %}
   </div>
 </div>
 
 <style>
-.sea-footprints-list {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+.sea-footprints-timeline {
+  margin-top: 2.5rem;
+  position: relative;
+  padding-left: 2rem;
 }
 
-.sea-footprint-item {
-  padding: 1rem;
-  background-color: var(--sea-bg-soft);
+.sea-footprints-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: var(--sea-border);
+}
+
+.sea-footprint-node {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.sea-footprint-node:last-child {
+  margin-bottom: 0;
+}
+
+.sea-footprint-dot {
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background: var(--sea-bg-main);
+  border: 2px solid var(--sea-color-primary);
+  border-radius: 50%;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+.sea-footprint-content {
+  background: var(--sea-bg-soft);
+  padding: 1.25rem;
   border-radius: var(--sea-radius-lg);
   border: 1px solid var(--sea-border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.sea-footprint-meta {
+.sea-footprint-content:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sea-shadow-lg);
+}
+
+.sea-footprint-header {
   display: flex;
+  align-items: center;
   gap: 1rem;
+  margin-bottom: 0.75rem;
   font-size: 0.875rem;
   color: var(--sea-text-light);
-  margin-bottom: 0.5rem;
 }
 
 .sea-footprint-date {
-  font-weight: bold;
+  font-family: var(--sea-font-family-mono);
+  font-weight: 600;
+  color: var(--sea-color-primary);
+}
+
+.sea-footprint-location {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .sea-footprint-activity {
+  font-size: 1.125rem;
+  font-weight: 500;
   color: var(--sea-text-main);
+  line-height: 1.6;
+}
+
+.sea-footprint-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.sea-footprint-image {
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: var(--sea-radius-md);
+  cursor: zoom-in;
+}
+
+.sea-footprint-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.sea-footprint-image:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 640px) {
+  .sea-footprint-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
 }
 </style>

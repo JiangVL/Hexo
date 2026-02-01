@@ -1,0 +1,170 @@
+/* Bangumi Page Styles for Sea Theme - Overriding Plugin Defaults */
+
+.sea-article-content .bangumi-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.sea-article-content a.bangumi-tab {
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--sea-radius-full);
+  background-color: var(--sea-bg-card);
+  border: 1px solid var(--sea-border);
+  color: var(--sea-text-main) !important;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.sea-article-content a.bangumi-tab:hover,
+.sea-article-content a.bangumi-tab.bangumi-active {
+  background-color: var(--sea-color-primary) !important;
+  color: #fff !important;
+  border-color: var(--sea-color-primary);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+}
+
+.sea-article-content .bangumi-item {
+  display: flex;
+  background-color: var(--sea-bg-card);
+  border-radius: var(--sea-radius-lg);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--sea-border) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  min-height: auto !important;
+  padding: 0 !important;
+}
+
+.sea-article-content .bangumi-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sea-shadow-lg);
+  border-color: var(--sea-color-primary) !important;
+}
+
+.sea-article-content .bangumi-picture {
+  position: static !important;
+  width: 140px !important;
+  height: 200px !important;
+  flex-shrink: 0;
+}
+
+.sea-article-content .bangumi-picture img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  margin: 0 !important;
+}
+
+.sea-article-content .bangumi-info {
+  padding: 1.25rem !important;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: auto !important;
+}
+
+.sea-article-content .bangumi-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.sea-article-content .bangumi-title a {
+  color: var(--sea-text-main) !important;
+  text-decoration: none;
+}
+
+.sea-article-content .bangumi-title a:hover {
+  color: var(--sea-color-primary) !important;
+}
+
+.sea-article-content .bangumi-meta {
+  font-size: 0.85rem !important;
+  color: var(--sea-text-light) !important;
+  height: auto !important;
+  margin-bottom: 0.5rem;
+}
+
+.sea-article-content .bangumi-info-items {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  height: auto !important;
+  color: var(--sea-text-light) !important;
+}
+
+.sea-article-content .bangumi-info-item {
+  width: auto !important;
+  border-right: none !important;
+  text-align: left !important;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.sea-article-content .bangumi-info-label {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.sea-article-content .bangumi-info-item em {
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 2px !important;
+}
+
+.sea-article-content .bangumi-info-total {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding-top: 0 !important;
+}
+
+.sea-article-content .bangumi-comments {
+  font-size: 0.9rem !important;
+  color: var(--sea-text-main) !important;
+  line-height: 1.6;
+  margin-top: 0.5rem !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sea-article-content .bangumi-pagination {
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.sea-article-content .bangumi-button {
+  padding: 0.5rem 1rem !important;
+  border-radius: var(--sea-radius-md);
+  background-color: var(--sea-bg-card) !important;
+  border: 1px solid var(--sea-border) !important;
+  color: var(--sea-text-main) !important;
+  transition: all 0.2s ease;
+}
+
+.sea-article-content .bangumi-button:hover {
+  background-color: var(--sea-color-primary) !important;
+  color: #fff !important;
+  border-color: var(--sea-color-primary) !important;
+}
+
+@media (max-width: 640px) {
+  .sea-article-content .bangumi-item {
+    flex-direction: column;
+  }
+  
+  .sea-article-content .bangumi-picture {
+    width: 100% !important;
+    height: 180px !important;
+  }
+}

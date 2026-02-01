@@ -2,8 +2,8 @@
 home:
   hero:
     name: 晳粊的人生 # 名称
-    intro: # 个人简介
-    avatar: # 头像
+    intro: 记录生活与成长 # 个人简介
+    avatar: /images/avatar.webp # 头像
   posts: recent # recent: 最新文章 | recommend: 推荐文章
 
 # 所有文章
@@ -14,18 +14,30 @@ articles:
 
 # 菜单栏
 menu:
+  - name: 首页
+    url: /
   - name: 归档
     url: /archives/
+  - name: 足迹
+    url: /footprints/
+  - name: 番剧
+    url: /anime/
   - name: 友链
     url: /friends/
-  - name: 留言
-    url: /messages/
   - name: 关于
     url: /about/
+  - name: 状态
+    url: https://status.zhbi.top
 
 comment:
-  enable: false
-  type: # waline | giscus
+  enable: true
+  type: twikoo # waline | giscus | twikoo
+
+twikoo:
+  envId: https://twikoo.395718.xyz/.netlify/functions/twikoo
+  lang: zh-CN
+  region: 
+  path: 
 
 # Waline https://waline.js.org/
 waline:

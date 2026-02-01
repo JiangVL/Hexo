@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -98,6 +98,21 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: sea
+
+# Bangumi
+bangumi:
+  enable: true
+  path: bangumi/index.html
+  vmid: 701864046
+  source: bili
+  title: 追番列表
+  quote: '想看的番剧都在这里'
+  show: '1'
+  lazyload: true
+  metaColor: '#10b981'
+  color: '#10b981'
+  pagination: true
+  per_page: 20
 
 # Markdown settings
 marked:

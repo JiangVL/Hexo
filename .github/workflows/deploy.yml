@@ -37,9 +37,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Sync Bangumi
+        run: npx hexo bangumi --sync
+
       - name: Build
         # 确保这里只执行生成静态文件的操作，不要触发 hexo deploy
-        run: pnpm run build 
+        run: pnpm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

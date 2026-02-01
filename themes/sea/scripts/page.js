@@ -47,3 +47,26 @@ hexo.extend.generator.register('search', function () {
     }
   };
 });
+
+hexo.extend.generator.register('anime_json', function (locals) {
+  const fs = require('fs');
+  const path = require('path');
+  const yaml = require('js-yaml');
+  
+  const dataPath = path.join(hexo.base_dir, 'config/bangumi/bangumi.yml');
+  let animeList = [];
+  
+  if (fs.existsSync(dataPath)) {
+    try {
+      const content = fs.readFileSync(dataPath, 'utf8');
+      animeList = yaml.load(content) || [];
+    } catch (e) {
+      hexo.log.error(`[Hexo-Theme-Sea] Error loading data for anime_json:`, e);
+    }
+  }
+
+  return {
+    path: 'anime/index.json',
+    data: JSON.stringify(animeList)
+  };
+});

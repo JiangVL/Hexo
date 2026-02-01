@@ -1,70 +1,1023 @@
-- title: "Lycoris Recoil"
-  status: "completed"
-  rating: 9.8
-  cover: "/assets/anime/lkls.webp"
-  description: "Girl's gunfight"
-  episodes: "12 episodes"
-  year: "2022"
-  genre: ["Action", "Slice of life"]
-  studio: "A-1 Pictures"
-  link: "https://www.bilibili.com/bangumi/media/md28338623"
-  progress: 12
-  totalEpisodes: 12
-  startDate: "2022-07"
-  endDate: "2022-09"
-- title: "Yowamushi Pedal"
-  status: "watching"
-  rating: 9.5
-  cover: "/assets/anime/rynh.webp"
-  description: "Girl's daily life, sweet and healing"
-  episodes: "12 episodes"
-  year: "2015"
-  genre: ["Daily life", "Healing"]
-  studio: "Nexus"
-  link: "https://www.bilibili.com/bangumi/media/md2590"
+- title: 辉夜大小姐想让我告白～天才们的恋爱头脑战～
+  originalTitle: かぐや様は告らせたい～天才たちの恋愛頭脳戦～
+  description: >-
+    家庭背景与人品都很棒！！一大群有前途的秀才所聚集的秀知院学园！！在那里的学生会相遇的副会长·四宫辉夜与会长·白银御行原本应该是彼此受到了对方吸引…但想不到都过半年了却仍然什么事情也没发生！！最麻烦的是这两个自尊心超强、无法坦率的家伙，居然开
+  cover: https://lain.bgm.tv/pic/cover/l/2a/f7/248175_2w4zT.jpg
+  status: watching
+  rating: 0
+  updatedAt: '2026-02-01T04:47:50+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/248175
   progress: 8
   totalEpisodes: 12
-  startDate: "2015-07"
-  endDate: "2015-09"
-- title: "Asteroid in Love"
-  status: "watching"
-  rating: 9.2
-  cover: "/assets/anime/laxxx.webp"
-  description: "Meeting girls among the stars, pure love and healing"
-  episodes: "12 episodes"
-  year: "2020"
-  genre: ["Romance", "Healing"]
-  studio: "Doga Kobo"
-  link: "https://www.bilibili.com/bangumi/media/md28224128"
+  year: '2019'
+  type: Anime
+- title: 拔作岛
+  originalTitle: ぬきたし THE ANIMATION
+  description: "这里是四季如夏的孤岛「青蓝岛」。\r\n在这座岛出生的橘淳之介，以父母过世为契机，与妹妹橘麻沙音一起回到了岛上。然而青蓝岛为了防止人口继续减少而实施了《超色情条例》，岛上因此到处都允许及推荐人进行色情爱爱（打炮）。要是拒绝这种「性产行为」，甚至"
+  cover: https://lain.bgm.tv/pic/cover/l/ee/a3/477825_5H55M.jpg
+  status: watching
+  rating: 0
+  updatedAt: '2026-01-21T21:30:11+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/477825
   progress: 5
-  totalEpisodes: 12
-  startDate: "2020-01"
-  endDate: "2020-03"
-- title: "Is the Order a Rabbit?"
-  status: "planned"
-  rating: 9.0
-  cover: "/assets/anime/tz1.webp"
-  description: "A group of girls' warm daily life"
-  episodes: "12 episodes"
-  year: "2014"
-  genre: ["Daily life", "Healing"]
-  studio: "White Fox"
-  link: "https://www.bilibili.com/bangumi/media/md2762"
+  totalEpisodes: 11
+  year: '2025'
+  type: Anime
+- title: 樱花庄的宠物女孩
+  originalTitle: さくら荘のペットな彼女
+  description: >-
+    　　就读水明艺术大学附属高中的神田空太，一年级夏天时在宿舍养猫，而被校长叫去问话，并要他把猫赶走，不然就搬出宿舍。身为爱猫一族的空太，企图反抗权威，结果被撵出宿舍，流落到恶名昭彰的“樱花庄”。
+    隔年春天，随着世界级天才画家椎名真白搬进了樱花
+  cover: https://lain.bgm.tv/pic/cover/l/01/a2/41488_qw09G.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-19T21:24:17+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/41488
+  progress: 24
+  totalEpisodes: 24
+  year: '2012'
+  type: Anime
+- title: 路人女主的养成方法 Fine
+  originalTitle: 冴えない彼女の育てかた Fine
+  description: >-
+    某个春天的日子，安艺伦也决定做一部以在樱花飞舞的坡道上命中注定般相遇的少女——加藤惠为女主角的同人游戏。邀请了加入了美术部、作为同人插画家活动的泽村·斯潘塞·英梨梨，以及学年第一的优等生、作为轻小说作家活跃的霞之丘诗羽，成立了blessin
+  cover: https://lain.bgm.tv/pic/cover/l/8b/4c/231497_tZxtU.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-11T21:32:04+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/231497
+  progress: 1
+  totalEpisodes: 1
+  year: '2019'
+  type: Anime
+- title: 电影 中二病也要谈恋爱！ -Take On Me-
+  originalTitle: 映画 中二病でも恋がしたい！ -Take On Me-
+  description: "“18岁，高中的最后一年。但六花却……依然是中二病！”\r\n在大学考试逼近的高三的春假，勇太与六花依然在一起生活，但看起来至今依然尚未缔结上级契约。就在某天，十花突然说要带六花去意大利生活：因为工作已经稳定下来，所以想要全家一起搬过去住。虽然"
+  cover: https://lain.bgm.tv/pic/cover/l/d4/3b/215425_i1V31.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-06T12:54:44+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/215425
+  progress: 4
+  totalEpisodes: 1
+  year: '2018'
+  type: Anime
+- title: 中二病也要谈恋爱！
+  originalTitle: 中二病でも恋がしたい！
+  description: >-
+    富㭴勇太于初中毕业的时候，决定同时为自己举办中二病毕业的仪式。打算顺利渡过高中生活的他，在开学日以最后的中二语录完全封锁这段黑历史。可惜天意弄人，勇太遇上了现任中二病患者暨同班同学小鸟游六花，更被对方看出中二病的残余症状。六花于是以此威逼勇
+  cover: https://lain.bgm.tv/pic/cover/l/3d/fd/29648_hkoQV.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-06T12:53:57+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/29648
+  progress: 13
+  totalEpisodes: 13
+  year: '2012'
+  type: Anime
+- title: 中二病也要谈恋爱！剧场版 小鸟游六花・改
+  originalTitle: 小鳥遊六花・改 ～劇場版 中二病でも恋がしたい！～
+  description: "我在结社里休息时，凸守和茴香两人催促我说出邪王真眼与漆黑烈火使邂逅的历史。\r\n也好。在代替我奔赴最终决战地的漆黑烈火使回来以前，就让我来讲述一下羁绊之物语吧。\r\n然而，这只是全新的战斗的序幕……"
+  cover: https://lain.bgm.tv/pic/cover/l/fc/76/75521_e7hEp.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-06T12:53:55+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/75521
+  progress: 2
+  totalEpisodes: 1
+  year: '2013'
+  type: Anime
+- title: 中二病也要谈恋爱！恋
+  originalTitle: 中二病でも恋がしたい！戀
+  description: "由于各种原因导致失去住所的六花开始寻找新家，但过程并不顺利，最终来到了勇太的家里。\r\n然而，勇太的家人却留下勇太一个人到雅加达去了。\r\n现在开始的同栖生活！？这样想着心跳不已的两个人。\r\n但此时樟叶为了迎考而回到了家中。不知应该感到安心还是"
+  cover: https://lain.bgm.tv/pic/cover/l/c8/e4/72942_VniXv.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-06T12:53:49+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/72942
+  progress: 20
+  totalEpisodes: 13
+  year: '2014'
+  type: Anime
+- title: 中二病也要谈恋爱！恋 Lite
+  originalTitle: 中二病でも恋がしたい！戀 Lite
+  description: ''
+  cover: https://lain.bgm.tv/pic/cover/l/41/83/91651_vpgN9.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-06T12:33:37+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/91651
+  progress: 6
+  totalEpisodes: 6
+  year: '2013'
+  type: Anime
+- title: 中二病也要谈恋爱！Lite
+  originalTitle: 中二病でも恋がしたい！Lite
+  description: ''
+  cover: https://lain.bgm.tv/pic/cover/l/8f/2c/50331_KWKjN.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-06T12:33:35+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/50331
+  progress: 6
+  totalEpisodes: 6
+  year: '2012'
+  type: Anime
+- title: 路人女主的养成方法 ♭
+  originalTitle: 冴えない彼女の育てかた ♭
+  description: "御宅族高中生“安艺伦也”，某天在樱花飞舞的坂道上遇见了，不起眼的普通少女兼同班同学“加藤惠”。\r\n想要以惠为主要女主角制作Galgame的伦也，邀请了金发青梅竹马“泽村·斯宾塞·英梨梨”担当原画，年级第一的优等生前辈“霞之丘诗羽”担当剧本，"
+  cover: https://lain.bgm.tv/pic/cover/l/3a/ce/132734_CcMW0.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-05T12:42:44+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/132734
   progress: 12
   totalEpisodes: 12
-  startDate: "2014-04"
-  endDate: "2014-06"
-- title: "The Secret of the Magic Girl"
-  status: "watching"
-  rating: 9.0
-  cover: "/assets/anime/cmmn.webp"
-  description: "Muli, Muli!"
-  episodes: "12 episodes"
-  year: "2024"
-  genre: ["Daily life", "Healing", "Magic"]
-  studio: "C2C"
-  link: "https://www.bilibili.com/bangumi/media/md26625039"
-  progress: 8
+  year: '2017'
+  type: Anime
+- title: 剧场版 链锯人 蕾塞篇
+  originalTitle: 劇場版 チェンソーマン レゼ篇
+  description: "世界が熱狂するチェンソーマン、初の映画化！\r\n\r\n絶大な人気を誇るエピソード“レゼ篇”が、ついにスクリーンへ\r\n\r\n原作はシリーズ累計発行部数3,000万部を突破し、\r\n現在「少年ジャンプ+」(集英社)で人気連載中の漫画『チェンソーマン』。"
+  cover: https://lain.bgm.tv/pic/cover/l/e0/d8/470660_uLY5M.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-02T11:19:49+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/470660
+  progress: 1
+  totalEpisodes: 1
+  year: '2025'
+  type: Anime
+- title: 路人女主的养成方法
+  originalTitle: 冴えない彼女の育てかた
+  description: "春假时，为了购买动画蓝光片而打工的御宅族安艺伦也，在开满樱花的坡道上邂逅一位少女，帮她捡一顶被风吹走的帽子。于是有了以该少女为女主角制作同人游戏的构想。一个月后，才知道该少女是他的同班同学，名叫加藤惠。\r\n\r\n为了制作游戏，安艺伦也还要说服"
+  cover: https://lain.bgm.tv/pic/cover/l/6b/01/100403_R8KN2.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2026-01-01T18:09:09+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/100403
+  progress: 13
+  totalEpisodes: 13
+  year: '2015'
+  type: Anime
+- title: 秒速5厘米
+  originalTitle: 秒速5センチメートル
+  description: >-
+    时间是1990年代的日本，远野贵树与筱原明里原本是同班同学的好朋友，自从小学毕业之后，两人都没有再见一次面。分隔两地的两个人，靠着书信往来保持联络，直到贵树知道即将跟随家人搬到鹿儿岛，距离明里更远的地方，于是两人约定了再见面的时间。计划好的
+  cover: https://lain.bgm.tv/pic/cover/l/1f/44/927_J2Q9a.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-24T12:48:54+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/927
+  progress: 3
+  totalEpisodes: 3
+  year: '2007'
+  type: Anime
+- title: 你的名字。
+  originalTitle: 君の名は。
+  description: "　　在每千年回归一次的彗星造访过一个月之后的日本。\r\n　　某个深山的乡下小镇，女高中生三叶每天都过着忧郁的生活。\r\n　　而她烦恼的不光有担任镇长的父亲所举行的选举运动，还有家传神社的古老习俗。\r\n　　在这个小小的城镇，周围都只是些爱瞎操心的"
+  cover: https://lain.bgm.tv/pic/cover/l/20/15/160209_2UzU8.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-24T12:48:19+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/160209
+  progress: 1
+  totalEpisodes: 1
+  year: '2016'
+  type: Anime
+- title: 冰菓 应该持有之物
+  originalTitle: 氷菓 持つべきものは
+  description: >-
+    　　2013年1月発売予定のコミック版『氷菓』3巻限定版では、テレビ版の第11話と第12話の間に相当する完全オリジナルエピソードである第11.5話を収録したBlu-ray
+    Discが付録する予定。第11.5話は2012年7月8日0時よりUS
+  cover: https://lain.bgm.tv/pic/cover/l/b0/fb/111762_w1H19.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-24T12:46:23+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/111762
+  progress: 1
+  totalEpisodes: 1
+  year: '2013'
+  type: Anime
+- title: 更衣人偶坠入爱河 第二季
+  originalTitle: その着せ替え人形は恋をする Season 2
+  description: "以某次的相遇为契机，喜多川海梦和五条新菜透过Cosplay加深了交流。\r\n他们还有许多想Cosplay的角色和想制作的服装。\r\n\r\n透过和同学们的交流，以及新的Cosplay同伴的相遇，近一步拓展了海梦和新菜的世界。\r\n除此之外，新菜与令人"
+  cover: https://lain.bgm.tv/pic/cover/l/38/44/398951_973Z3.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-23T21:29:29+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/398951
+  progress: 12
   totalEpisodes: 12
-  startDate: "2025-07"
-  endDate: "2025-10"
+  year: '2025'
+  type: Anime
+- title: 更衣人偶坠入爱河
+  originalTitle: その着せ替え人形は恋をする
+  description: "制作着女儿节娃娃，以成为娃娃工匠为目标的男高中生五条新菜。\r\n他专心一志地制作女儿娃娃，却也因此疏离的同世代的流行，迟迟无法融入班级。\r\n对这样的新菜来说，总是身处班上团体的中心，大受欢迎的喜多川海梦就像是不同世界的人一样。\r\n但就在某天，"
+  cover: https://lain.bgm.tv/pic/cover/l/9c/4d/333158_PA0F4.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-20T08:53:21+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/333158
+  progress: 12
+  totalEpisodes: 12
+  year: '2022'
+  type: Anime
+- title: ReLIFE 完结篇
+  originalTitle: ReLIFE 完結編
+  description: "無職でニートの海崎新太(27歳)はリライフ研究所の社会復帰プログラム「リライフ」へ参加し、1年間限定で高校生として高校に通っていた。\r\n2学期に入り日代と一緒に青葉祭の実行委員を任された海崎は日代にある気持ちを抱く。一方、日代も花火大会以降"
+  cover: https://lain.bgm.tv/pic/cover/l/55/63/213816_y91Nb.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-17T13:07:50+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/213816
+  progress: 5
+  totalEpisodes: 4
+  year: '2018'
+  type: Anime
+- title: ReLIFE
+  originalTitle: ReLIFE
+  description: "海崎新太（27岁）在作为新毕业生进入的公司工作了3个月就辞职了。\r\n之后他的就职活动也不顺利。\r\n双亲寄来的生活费也中断了，不得已只好回到乡下。\r\n能够倾听他烦恼的朋友和女友全都没有……\r\n穷途末路的海崎面前出现了一位神秘人物·夜明了。\r\n"
+  cover: https://lain.bgm.tv/pic/cover/l/e0/a2/126173_II0Y1.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-16T13:24:54+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/126173
+  progress: 12
+  totalEpisodes: 13
+  year: '2016'
+  type: Anime
+- title: 葬送的芙莉莲 第二季
+  originalTitle: 葬送のフリーレン 第2期
+  description: "「流泪道别并不适合我们，因为下次再见时会很难为情。」\r\n在勇者欣梅尔一行人击败魔王后的世界中，与欣梅尔等人一同为世界带来和平、活了千年以上的精灵魔法使──芙莉莲。\r\n在面对寿命已尽的欣梅尔之死时，因落下的泪水与心中涌现的情感，踏上了「理解人"
+  cover: https://lain.bgm.tv/pic/cover/l/0b/24/515759_qA1Zc.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-12-16T13:23:51+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/515759
+  progress: 0
+  totalEpisodes: 10
+  year: '2026'
+  type: Anime
+- title: 异种族风俗娘评鉴指南
+  originalTitle: 異種族レビュアーズ
+  description: "ここは人間だけではなく、エルフ、獣人、悪魔に天使と、あらゆる異種族が混在し、暮らしている世界。そこには当然、あらゆる異種族のスケベなお店もあるわけで…。\r\n\r\n足しげくムフフなサービスをしてくれるお店に通う人間の冒険者・スタンクは、ある日種"
+  cover: https://lain.bgm.tv/pic/cover/l/dc/8a/285482_c5RRj.jpg
+  status: dropped
+  rating: 0
+  updatedAt: '2025-12-13T14:09:17+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/285482
+  progress: 2
+  totalEpisodes: 12
+  year: '2020'
+  type: Anime
+- title: 青之箱
+  originalTitle: アオのハコ
+  description: "猪股大喜，高中一年级，是初高中一体的体育强校——荣明高中的男子羽毛球社成员。\r\n大喜喜欢上了每天晨练时见到的学姐鹿野千夏。\r\n千夏是女子篮球社的王牌选手，更是校内外憧憬的校花。\r\n兼顾社团活动、恋爱、和学习，大喜忙碌的高中生活拉开了帷幕，突"
+  cover: https://lain.bgm.tv/pic/cover/l/ab/e5/460306_s7Y8n.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-13T11:30:33+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/460306
+  progress: 25
+  totalEpisodes: 25
+  year: '2024'
+  type: Anime
+- title: 青之箱 第二季
+  originalTitle: アオのハコ 第2期
+  description: ''
+  cover: https://lain.bgm.tv/pic/cover/l/f1/6c/548156_fH6hX.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-12-13T11:29:43+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/548156
+  progress: 0
+  totalEpisodes: 0
+  year: ''
+  type: Anime
+- title: 游戏人生
+  originalTitle: ノーゲーム・ノーライフ
+  description: >-
+    “听说游戏玩家兄妹要征服幻想世界”空与白既是尼特族又是家里蹲，但是在网路上却是被奉为都市传说的天才游戏玩家兄妹。称世界为「烂游戏」的两人，某一天被自称是“神”的少年召唤至异世界，那是个战争为神所禁止，“游戏决定一切”的世界──没错，甚至连国
+  cover: https://lain.bgm.tv/pic/cover/l/54/bd/79227_052R3.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-08T20:54:12+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/79227
+  progress: 14
+  totalEpisodes: 12
+  year: '2014'
+  type: Anime
+- title: 游戏人生 零
+  originalTitle: ノーゲーム・ノーライフ ゼロ
+  description: "那是个战争和暴力皆被神所禁止，由“游戏”决定一切的「盘上世界」。\r\n战无不胜的兄妹玩家，空和白降临这个世界的六千余年前，有着诞生悠久大战，开天杀星的少年和少女。\r\n这是影响至今的最古老的神话。\r\n那不曾被人传颂的故事，现在拉开帷幕……。"
+  cover: https://lain.bgm.tv/pic/cover/l/2b/93/187276_3TRqx.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-01T20:58:51+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/187276
+  progress: 0
+  totalEpisodes: 1
+  year: '2017'
+  type: Anime
+- title: 无职转生～到了异世界就拿出真本事～ 第2部分
+  originalTitle: 無職転生 ～異世界行ったら本気だす～ 第2クール
+  description: "「俺は、この異世界で本気だす！」\r\n34歳・童貞・無職の引きこもりニート男。\r\n両親の葬儀の日に家を追い出された瞬間、トラックに轢かれ命を落としてしまう。\r\n目覚めると、なんと剣と魔法の異世界で赤ん坊に生まれ変わっていた！\r\nゴミクズのよう"
+  cover: https://lain.bgm.tv/pic/cover/l/60/4d/325585_tfU01.jpg
+  status: on_hold
+  rating: 0
+  updatedAt: '2025-12-01T13:06:40+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/325585
+  progress: 1
+  totalEpisodes: 12
+  year: '2021'
+  type: Anime
+- title: 别当欧尼酱了！
+  originalTitle: お兄ちゃんはおしまい！
+  description: "某天，家里蹲的啃老族绪山真寻一觉醒来发现自己变成了“女孩子”！？正当真寻不知道镜子里的美少女是自己而陷入混乱的时候，跳级进入大学的科学家妹妹绪山美波里出现了。她透露在饮料里加了一种奇怪的药物！\r\n真寻最近2年一直疯狂宅家玩小黄游，偶尔不得已"
+  cover: https://lain.bgm.tv/pic/cover/l/7e/ca/378862_24TnR.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-12-01T13:04:14+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/378862
+  progress: 11
+  totalEpisodes: 12
+  year: '2023'
+  type: Anime
+- title: 某科学的超电磁炮
+  originalTitle: とある科学の超電磁砲
+  description: "故事发生在面积占据东京都的三分之一，居住着230万名人口且其中八成人口是学生的巨大都市“学园都市”。学园都市的所有学生均会接受超能力开发，借由药物、催眠术与通电刺激等方式取得超能力。能力者以范围和威力分为LV0至LV5。\r\n\r\n主角御坂美琴"
+  cover: https://lain.bgm.tv/pic/cover/l/36/e7/2585_pn2eP.jpg
+  status: on_hold
+  rating: 0
+  updatedAt: '2025-11-27T06:12:51+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/2585
+  progress: 3
+  totalEpisodes: 24
+  year: '2009'
+  type: Anime
+- title: 间谍过家家 第2部分
+  originalTitle: SPY×FAMILY 第2クール
+  description: "人人都有不愿对他人露出的一面。\r\n这是一个情报战的年代，全球各国都全力参与其中，表面上却不动声色。\r\n东国和西国已陷入冷战长达十多年。“黄昏”是一名顶尖间谍，隶属西国专门对付东国的情报局 WISE。他奉命执行一项秘密任务：追踪东国国家统一党"
+  cover: https://lain.bgm.tv/pic/cover/l/3c/82/373267_ffBO8.jpg
+  status: on_hold
+  rating: 0
+  updatedAt: '2025-11-27T06:12:46+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/373267
+  progress: 0
+  totalEpisodes: 13
+  year: '2022'
+  type: Anime
+- title: 青春猪头少年不会梦到圣诞服女郎
+  originalTitle: 青春ブタ野郎はサンタクロースの夢を見ない
+  description: "思春期症候群――\r\n不安定な精神状態によって引き起こされると噂の不思議現象。\r\n\r\n高校時代に様々な思春期症候群を発症した少女たちに出会ってきた\r\n“梓川咲太”も大学生になった。\r\n\r\n国民的人気女優であり、恋人の“桜島麻衣”と共に\r\n金沢"
+  cover: https://lain.bgm.tv/pic/cover/l/d3/a3/467930_jH4s4.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-11-26T20:57:07+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/467930
+  progress: 13
+  totalEpisodes: 13
+  year: '2025'
+  type: Anime
+- title: 薰香花朵凛然绽放
+  originalTitle: 薫る花は凛と咲く
+  description: "“窗帘的另一头，是和我永远没有交集的世界”\r\n差生云集的底层男校千鸟高中，一直被历史悠久的贵族女校桔梗女校所鄙视。\r\n尽管两校的校舍相邻，但桔梗女校从来都是将窗帘拉得严严实实，不让千鸟高中的人看到人影。\r\n在千鸟高中上学的䌷凛太郎，因为长相"
+  cover: https://lain.bgm.tv/pic/cover/l/b8/0d/513345_jv4wM.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-11-14T19:02:49+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/513345
+  progress: 13
+  totalEpisodes: 13
+  year: '2025'
+  type: Anime
+- title: 无职转生～到了异世界就拿出真本事～
+  originalTitle: 無職転生 ～異世界行ったら本気だす～
+  description: "“我要在这个异世界拿出真本事！”\r\n34岁童贞且无职的家里蹲男子，在父母的葬礼当天被赶出家门后，在路上被一辆卡车所撞死。意识清醒后，他发现自己居然作为一个刚出生的婴儿转生到了剑与魔法的异世界！像废物一样活过了前世的男子，发誓要作为少年·鲁迪"
+  cover: https://lain.bgm.tv/pic/cover/l/8b/00/277554_z999u.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-09-28T21:28:55+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/277554
+  progress: 11
+  totalEpisodes: 11
+  year: '2021'
+  type: Anime
+- title: 刀剑神域
+  originalTitle: ソードアート・オンライン
+  description: >-
+    2022年，人类实现了现实世界和假想空间的融合，电子制造商开发了名为《刀剑神域（Sword Art
+    Online）》的在线电子游戏。SAO甫一面世便大受好评，限量一万份的名额在发售当天的短时间内便被抢购一空。通过联网，玩家可以身临其境进入充
+  cover: https://lain.bgm.tv/pic/cover/l/2e/c8/23686_e36x9.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-09-06T03:17:31+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/23686
+  progress: 25
+  totalEpisodes: 25
+  year: '2012'
+  type: Anime
+- title: 四月是你的谎言
+  originalTitle: 四月は君の嘘
+  description: >-
+    　　有马公生的母亲一心想把有马培育成举世闻名的钢琴家，而有马也不负母亲的期望，在念小学时就赢得许多钢琴比赛的大奖。11岁的秋天，有马的母亲过世，从此他再也听不见自己弹奏的钢琴声，沮丧的他也只好放弃演奏，但在14岁那年，经由儿时玩伴的介绍，有
+  cover: https://lain.bgm.tv/pic/cover/l/ec/c7/100444_96r3J.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-08-14T13:06:28+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/100444
+  progress: 22
+  totalEpisodes: 22
+  year: '2014'
+  type: Anime
+- title: 青春猪头少年不会梦到红书包女孩
+  originalTitle: 青春ブタ野郎はランドセルガールの夢を見ない
+  description: "三月に入り、三学期も残り１ヶ月。恋人の桜島麻衣の卒業式を迎えた梓川咲太。\r\n七里ヶ浜の海岸で麻衣を待っていると、彼の目の前に子役時代の麻衣にそっくりな小学生が現れる―。\r\n「おじさん、だぁれ？」\r\nこれは夢か幻か、不可思議な体験を思い返して"
+  cover: https://lain.bgm.tv/pic/cover/l/37/af/426239_1D3s9.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-07-23T20:52:47+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/426239
+  progress: 0
+  totalEpisodes: 1
+  year: '2023'
+  type: Anime
+- title: 青春猪头少年不会梦到娇怜外出妹
+  originalTitle: 青春ブタ野郎はおでかけシスターの夢を見ない
+  description: "高校二年生の三学期を迎えた梓川咲太。\r\n三年生の先輩であり恋人の桜島麻衣と、峰ヶ原高校で一緒に過ごせる学生生活も残り僅かとなった。\r\nそんななか、長年おうち大好きだった妹の花楓は、誰にも明かしたことのない胸の内を咲太に打ち明ける。\r\n「お兄"
+  cover: https://lain.bgm.tv/pic/cover/l/c4/bf/402656_SXThf.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-07-14T19:40:38+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/402656
+  progress: 0
+  totalEpisodes: 1
+  year: '2023'
+  type: Anime
+- title: 青春猪头少年不会梦到兔女郎学姐
+  originalTitle: 青春ブタ野郎はバニーガール先輩の夢を見ない
+  description: "思春期症候群——这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。\r\n例如，在梓川咲太面前出现的野生兔女郎。\r\n她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周围的人眼里看不出来。\r\n咲太决定解"
+  cover: https://lain.bgm.tv/pic/cover/l/b9/45/240038_b5j7g.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-07-08T22:57:09+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/240038
+  progress: 13
+  totalEpisodes: 13
+  year: '2018'
+  type: Anime
+- title: 间谍过家家
+  originalTitle: SPY×FAMILY
+  description: "每个人都有着不让任何人所看见的一面——\r\n这是一个世界各国在暗地里展开激烈情报战的时代。东国和西国已经处于冷战状态长达十余年之久。\r\n隶属于西国情报局对东科（WISE）的精英间谍“黄昏”，为了调查东国国家统一党总裁多诺万·德斯蒙这一威胁东西"
+  cover: https://lain.bgm.tv/pic/cover/l/de/4a/329906_hmtVD.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-06-24T13:10:55+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/329906
+  progress: 12
+  totalEpisodes: 12
+  year: '2022'
+  type: Anime
+- title: 剧场版 间谍过家家 代号：白
+  originalTitle: '劇場版 SPY×FAMILY CODE: White'
+  description: >-
+    这是世界各国均于暗地里进行激烈情报战的时代。西国的情报局对东科“WISE”的干练特务“黄昏”在像往常一样作为劳埃德·福杰执行任务时，接到了变更进行中的任务“枭”的负责人的指示。然而被选为新负责人的，却是个无能的男人。与此同时，伊甸学园将开展
+  cover: https://lain.bgm.tv/pic/cover/l/ec/82/411428_xwKKP.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-06-24T13:10:39+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/411428
+  progress: 0
+  totalEpisodes: 1
+  year: '2023'
+  type: Anime
+- title: 梦想成为魔法少女
+  originalTitle: 魔法少女にあこがれて
+  description: "柊舞缇娜是非常喜欢魔法少女的普通女孩。有一天，一个奇怪的吉祥物给了她变身的能力，于是她学会了神奇的魔法，如此一来她就能成为魔法少女了。\r\n“咦，这到底是什么装扮？”\r\n“邪恶组织的女干部又是什么意思！？接下来我会变得怎么样啊！！？”\r\n心地"
+  cover: https://lain.bgm.tv/pic/cover/l/96/d1/424663_mM5GN.jpg
+  status: dropped
+  rating: 0
+  updatedAt: '2025-06-21T14:38:22+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/424663
+  progress: 1
+  totalEpisodes: 13
+  year: '2024'
+  type: Anime
+- title: 葬送的芙莉莲
+  originalTitle: 葬送のフリーレン
+  description: "魔法使芙莉莲和勇者辛美尔等人一起，历经十年的冒险之后击败了魔王，为世界带来了和平。\r\n身为能活上一千多年的精灵族，她于是和辛美尔等人约定再次相见后，踏上了独自一人的旅途。\r\n自那以后，50年过去，芙莉莲又前往拜访辛美尔，相比于和50年前一点"
+  cover: https://lain.bgm.tv/pic/cover/l/13/c5/400602_ZI8Y9.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-06-21T14:37:58+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/400602
+  progress: 28
+  totalEpisodes: 28
+  year: '2023'
+  type: Anime
+- title: 间谍过家家 第二季
+  originalTitle: SPY×FAMILY Season 2
+  description: "人はみな　誰にも見せぬ自分を　持っている――\r\n\r\n世界各国が水面下で熾烈な情報戦を繰り広げていた時代。\r\n東国（オスタニア）と西国（ウェスタリス）は、十数年間にわたる冷戦状態にあった。\r\n\r\n西国の情報局対東課〈WISE（ワイズ）〉所属で"
+  cover: https://lain.bgm.tv/pic/cover/l/69/5b/411427_1Bw95.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-06-04T05:42:16+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/411427
+  progress: 0
+  totalEpisodes: 12
+  year: '2023'
+  type: Anime
+- title: 缘之空
+  originalTitle: ヨスガノソラ
+  description: "远离都市的乡间、奥木染。春日野悠带着他的妹妹·春日野穹来到了这里。\r\n兄妹俩幼时暑假期间曾来过多次奥木染，这里有着祖父的家，是个令人怀念的地方。\r\n因为意外事故而失去了双亲与去处的兄妹，决定移居至现在没有人居住的祖父家，在此开始新的生活。\r"
+  cover: https://lain.bgm.tv/pic/cover/l/6e/01/7157_QV8Rz.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-06-04T05:41:41+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/7157
+  progress: 12
+  totalEpisodes: 12
+  year: '2010'
+  type: Anime
+- title: 通往夏天的隧道，再见的出口
+  originalTitle: 夏へのトンネル、さよならの出口
+  description: "「你知道浦岛隧道吗？据说只要进入那条隧道，就能得到任何想要的事物；但相对地也会变老——」\r\n高中生塔野薰听说了这样的都市传说，碰巧就在当天夜晚，发现了疑似传言所指的隧道。只要进入这条隧道，或许就能救回五年前过世的妹妹。\r\n放学后，薰开始独自"
+  cover: https://lain.bgm.tv/pic/cover/l/80/d9/362575_v9kT3.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-06-03T21:40:48+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/362575
+  progress: 1
+  totalEpisodes: 1
+  year: '2022'
+  type: Anime
+- title: 你好 世界
+  originalTitle: HELLO WORLD
+  description: "「お前は今日から三か月後、一行瑠璃と恋人同士になる」\r\n\r\n京都に暮らす内気な男子高校生・直実の前に、\r\n10年後の未来から来た自分を名乗る青年・ナオミが突然現れる。\r\nナオミによれば、同級生の瑠璃は直実と結ばれるが、\r\nその後事故によって"
+  cover: https://lain.bgm.tv/pic/cover/l/14/a6/269090_600EK.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-06-02T21:00:44+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/269090
+  progress: 1
+  totalEpisodes: 1
+  year: '2019'
+  type: Anime
+- title: 我的青春恋爱物语果然有问题 完
+  originalTitle: やはり俺の青春ラブコメはまちがっている。完
+  description: >-
+    看似在过去的心理阴影及独自的别扭思考回路之下讴歌着“独自生活”的比企谷八幡，偶然地被生活指导担当教师平冢静带着加入了「侍奉部」。他和同社团所属的令人窒息的完美美少女·雪之下雪乃，以及班级上位阶级所属的时髦女子·由比滨结衣一同，从解决班上的人
+  cover: https://lain.bgm.tv/pic/cover/l/ba/69/277954_s8qHA.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-05-30T20:19:42+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/277954
+  progress: 12
+  totalEpisodes: 12
+  year: '2020'
+  type: Anime
+- title: 我的青春恋爱物语果然有问题 OVA
+  originalTitle: やはり俺の青春ラブコメはまちがっている。 OVA
+  description: >-
+    PSV游戏「果然在游戏里我的青春恋爱物语也有问题。」2013年9月19日发售，限定版将同捆原作者渡航担任脚本的新作OVA，讲述TV动画中未播出的番外篇故事。
+  cover: https://lain.bgm.tv/pic/cover/l/81/c0/82777_78uUP.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-05-18T10:58:30+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/82777
+  progress: 0
+  totalEpisodes: 1
+  year: '2013'
+  type: Anime
+- title: 我的青春恋爱物语果然有问题 续
+  originalTitle: やはり俺の青春ラブコメはまちがっている。続
+  description: >-
+    因过去的心理阴影而以独自的别扭思考回路讴歌着“独自生活”的比企谷八幡，由于意外的事件而被生活指导担当教师平冢静带去“侍奉部”并加入其中。他和同社团所属的令人窒息的完美美少女·雪之下雪乃，以及班级上位阶级所属的时髦女子·由比滨结衣一同，从解决
+  cover: https://lain.bgm.tv/pic/cover/l/1e/ef/102134_luzUc.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-05-18T10:53:59+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/102134
+  progress: 13
+  totalEpisodes: 13
+  year: '2015'
+  type: Anime
+- title: 我的青春恋爱物语果然有问题
+  originalTitle: やはり俺の青春ラブコメはまちがっている。
+  description: "　　别扭的，没有朋友，没有女朋友，对着那些讴歌青春的同学吐槽着“他们都是骗子，都在说谎，快点爆发把我”的男主角的爱情物语，将来的梦想是“不工作”——\r\n　　这样的高中生八幡被生活指导老师的带到了学校第一美少女雪乃所属的“侍奉部”，与美少女意"
+  cover: https://lain.bgm.tv/pic/cover/l/1e/f1/54433_JZ99l.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-05-15T12:26:22+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/54433
+  progress: 13
+  totalEpisodes: 13
+  year: '2013'
+  type: Anime
+- title: 我的青春恋爱物语果然有问题 续 OVA
+  originalTitle: やはり俺の青春ラブコメはまちがっている。続 OVA
+  description: PSV游戏「果然在游戏里我的青春恋爱物语也有问题。续」2016年10月27日发售，限定版将同捆新作OVA，讲述原作10.5卷中以一色彩羽为中心的故事。
+  cover: https://lain.bgm.tv/pic/cover/l/9a/a9/142678_uYQqS.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-05-15T07:35:31+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/142678
+  progress: 0
+  totalEpisodes: 1
+  year: '2016'
+  type: Anime
+- title: 孤独摇滚！
+  originalTitle: ぼっち・ざ・ろっく！
+  description: >-
+    作为网络吉他手“吉他英雄”而广受好评的后藤一里，在现实中却是个什么都不会的沟通障碍者。一里有着组建乐队的梦想，但因为不敢向人主动搭话而一直没有成功，直到一天在公园中被伊地知虹夏发现并邀请进入缺少吉他手的“结束乐队”。可是，完全没有和他人合作
+  cover: https://lain.bgm.tv/pic/cover/l/e2/e7/328609_2EHLJ.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-05-07T13:44:45+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/328609
+  progress: 13
+  totalEpisodes: 12
+  year: '2022'
+  type: Anime
+- title: 孤独摇滚！第二季
+  originalTitle: ぼっち・ざ・ろっく！ 第2期
+  description: "「ぼっちちゃん」こと後藤ひとりは、ギターを愛する孤独な少女。\r\n家で一人寂しく弾くだけの毎日だったが、\r\nひょんなことから伊地知虹夏が率いる「結束バンド」に加入することに。\r\n人前での演奏に不慣れな後藤は、立派なバンドマンになれるのか――"
+  cover: https://lain.bgm.tv/pic/cover/l/5b/9a/537409_w8wy0.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-04-29T05:35:04+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/537409
+  progress: 0
+  totalEpisodes: 0
+  year: ''
+  type: Anime
+- title: 命运石之门
+  originalTitle: STEINS;GATE
+  description: '       故事发生在「CHAOS;HEAD」的“涩谷崩坏”事件一年半之后的世界，而舞台则从涩谷转移到了秋叶原。主角冈部伦太郎是一位深度中二病的大学生，时常幻想自己身肩重任，并自称“狂气的疯狂科学家・凤凰院凶真”，不过说到底其作为不过就是'
+  cover: https://lain.bgm.tv/pic/cover/l/a9/79/10380_YwP4R.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-04-22T15:46:00+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/10380
+  progress: 0
+  totalEpisodes: 25
+  year: '2011'
+  type: Anime
+- title: 败犬女主太多了！
+  originalTitle: 負けヒロインが多すぎる！
+  description: "没能赢得心上人恋情的女孩——“败犬女主”。\r\n爱吃的青梅竹马系女主·八奈见杏菜。\r\n活力充沛的运动系女主·烧盐柠檬。\r\n怕生的小动物系女主·小鞠知花。\r\n被有点缺憾的败犬女主——败女们环绕，新感觉、乱糟糟的败走系青春故事就此揭幕。\r\n因失败"
+  cover: https://lain.bgm.tv/pic/cover/l/e4/dc/464376_NsZRw.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-04-22T14:52:46+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/464376
+  progress: 12
+  totalEpisodes: 12
+  year: '2024'
+  type: Anime
+- title: 败犬女主太多了！第二季
+  originalTitle: 負けヒロインが多すぎる！ 第2期
+  description: ''
+  cover: https://lain.bgm.tv/pic/cover/l/ed/a1/550507_mNM82.jpg
+  status: wish
+  rating: 0
+  updatedAt: '2025-04-22T10:14:02+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/550507
+  progress: 0
+  totalEpisodes: 0
+  year: ''
+  type: Anime
+- title: 冰菓
+  originalTitle: 氷菓
+  description: >-
+    以节能为座右铭的高中生折木奉太郎，
+    为一个小小的原因而加入了濒临废社的“古典文学部”。古典文学部的社员，包括他在社里认识的好奇宝宝，也就是女主角千反田爱瑠，还有他从国中就认识的伊原摩耶花和福部里志。这是他们四人以神山高中为舞台，对一桩桩事件
+  cover: https://lain.bgm.tv/pic/cover/l/cd/38/27364_1ZFmr.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-04-22T10:01:34+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/27364
+  progress: 22
+  totalEpisodes: 22
+  year: '2012'
+  type: Anime
+- title: 欢迎来到实力至上主义的教室 第二季
+  originalTitle: ようこそ実力至上主義の教室へ 2nd Season
+  description: "東京都高度育成高等学校。\r\n進学率、就職率100％を誇り、毎月10万円の金銭に相当するポイントが支給される楽園のような学校だが、その内実は一部の成績優秀者のみが好待遇を受けられる実力至上主義の学校だった。\r\n問題児の集まるDクラスに配属され"
+  cover: https://lain.bgm.tv/pic/cover/l/c8/8a/371546_Df9ri.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-04-20T17:40:31+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/371546
+  progress: 13
+  totalEpisodes: 13
+  year: '2022'
+  type: Anime
+- title: 欢迎来到实力至上主义的教室
+  originalTitle: ようこそ実力至上主義の教室へ
+  description: "这个社会是否平等呢。真正的“实力”是什么——。\r\n东京都高度育成高等学校。那是宣扬彻底的实力至上主义，以升学率·就业率100%而引以为豪的升学学校。升入那里，被分配到1年D班的绫小路清隆，却发现学校与实力至上主义的招牌相反，学生每个月会得到"
+  cover: https://lain.bgm.tv/pic/cover/l/87/01/214272_vlcWz.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-03-04T12:30:35+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/214272
+  progress: 12
+  totalEpisodes: 12
+  year: '2017'
+  type: Anime
+- title: 紫罗兰永恒花园
+  originalTitle: ヴァイオレット・エヴァーガーデン
+  description: "某个大陆的、某个时代。\r\n大陆南北分割的战争结束了，世界逐渐走向了和平。\r\n在战争中、作为军人而战斗的薇尔莉特·伊芙加登离开了军队，来到了大港口城市。怀抱着战场上一个对她而言比谁都重要的人告诉了她“某个话语”――。\r\n街道上人群踊跃，有轨电"
+  cover: https://lain.bgm.tv/pic/cover/l/1e/e2/183878_Fef1o.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:13:21+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/183878
+  progress: 13
+  totalEpisodes: 13
+  year: '2018'
+  type: Anime
+- title: 五等分的新娘
+  originalTitle: 五等分の花嫁
+  description: >-
+    一直过着贫困生活的高中二年级学生·上杉风太郎，找到了一份条件非常好的家庭教师兼职。然而，要教导的学生居然是同级生！而且还是五胞胎！！虽然都是美少女，但同时也是“将要留级”、“讨厌学习”的问题学生们！最开始的任务就是要取得这些女孩们的信任……
+  cover: https://lain.bgm.tv/pic/cover/l/fd/cd/256114_mvRVq.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:12:08+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/256114
+  progress: 12
+  totalEpisodes: 12
+  year: '2019'
+  type: Anime
+- title: 电影 五等分的新娘
+  originalTitle: 映画 五等分の花嫁
+  description: >-
+    身为“濒临留级”、“讨厌学习”的五胞胎美少女的兼职家庭教师风太郎，目标是将她们引导到“毕业”。而他迄今的努力都得到了回报，升上高中3年级的五胞胎完成了修学旅行，每个人都朝着“毕业”后的未来前行。在与风太郎共度的时光中，五胞胎先后察觉到了自己
+  cover: https://lain.bgm.tv/pic/cover/l/5a/44/331489_IJS3c.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:11:43+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/331489
+  progress: 1
+  totalEpisodes: 1
+  year: '2022'
+  type: Anime
+- title: 五等分的新娘∬
+  originalTitle: 五等分の花嫁∬
+  description: "面对“将要留级”、“讨厌学习”的美少女五姐妹，身为兼职家庭教师的风太郎要指导她们学习，直到“顺利毕业”为止。经历了林间学校中发生的许多事情后，风太郎与五姐妹的信赖进一步加深。\r\n想要在作为家庭教师的事业上迈进的风太郎本打算在这次的考试中要让"
+  cover: https://lain.bgm.tv/pic/cover/l/6c/00/282000_6HHwK.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:11:00+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/282000
+  progress: 12
+  totalEpisodes: 12
+  year: '2021'
+  type: Anime
+- title: 五等分的新娘∽
+  originalTitle: 五等分の花嫁∽
+  description: "「落第寸前」「勉強嫌い」の美少女五つ子を、\r\nアルバイト家庭教師として「卒業」まで導くことになった風太郎。\r\n高校生活も残すところ半年、最後の夏休みが始まろうとしていた。\r\nそこで受験勉強に集中すべく、夏休み期間は家庭教師のバイトを休むと告"
+  cover: https://lain.bgm.tv/pic/cover/l/ce/f7/427233_0eqFL.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:10:05+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/427233
+  progress: 0
+  totalEpisodes: 2
+  year: '2023'
+  type: Anime
+- title: 五等分的新娘＊
+  originalTitle: 五等分の花嫁＊
+  description: "ファン待望の新婚旅行エピソードを、春場ねぎ原案＆完全監修のもと映像化。\r\n大人になった風太郎と五つ子の日常をお届けします！\r\n\r\n「落第寸前」「勉強嫌い」の美少女五つ子を、\r\nアルバイト家庭教師として見事「卒業」まで導いた風太郎。\r\nそれぞ"
+  cover: https://lain.bgm.tv/pic/cover/l/54/68/492352_4dkjc.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:09:56+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/492352
+  progress: 0
+  totalEpisodes: 2
+  year: '2024'
+  type: Anime
+- title: 玉子爱情故事
+  originalTitle: たまこラブストーリー
+  description: "时已入春，已经进入高中三年级的北白川玉子仍然总是想着打糕的事情。\r\n春天傍晚的放学路上，玉子好友四人组谈论着关于将来出路的事情。大家虽然对此感到不安，但似乎对将来的事情都有好好地考虑过。玉子也无意中说出自己将来想要继承家业。\r\n同时，住在玉"
+  cover: https://lain.bgm.tv/pic/cover/l/59/8d/90880_NYUDd.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:09:20+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/90880
+  progress: 1
+  totalEpisodes: 1
+  year: '2014'
+  type: Anime
+- title: 玉子市场
+  originalTitle: たまこまーけっと
+  description: >-
+    　　座落某个小镇的兔子商店街上，有一间日式饼店，住着一位十分喜欢饼类小吃的高中一年级女生——玉子。除了偶尔在店铺协助父亲，以及钻研新口味的饼类小吃外，她亦有跟学校的朋友参与羽毛球部活动。而饼店对面是同行的竞争对手，两边的父亲经常都因生意问题
+  cover: https://lain.bgm.tv/pic/cover/l/f8/7f/55113_TR5Is.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:09:02+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/55113
+  progress: 12
+  totalEpisodes: 12
+  year: '2013'
+  type: Anime
+- title: 想要成为影之实力者！ 第二季
+  originalTitle: 陰の実力者になりたくて！ 2nd season
+  description: "接下来的舞台是由“血之女王”、“妖狐”、“暴君”三势力统治的无法都市。\r\n那里是无赖横行、弱肉强食的世界。为了讨伐吸血鬼们的支配者“血之女王”被姐姐克莱儿带走的希德，因为有机会做出“影之实力者”的行为而兴奋不已……。\r\n围绕“血之女王”的阴"
+  cover: https://lain.bgm.tv/pic/cover/l/86/5a/419846_UWUv4.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:08:41+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/419846
+  progress: 12
+  totalEpisodes: 12
+  year: '2023'
+  type: Anime
+- title: 想要成为影之实力者！
+  originalTitle: 陰の実力者になりたくて！
+  description: "主人公最强×压倒的中二病×因误会造成的严肃喜剧！？\r\n“影之实力者”\r\n既不是主人公，也不是终极大BOSS，而是平日里彻底隐藏自己的实力、在暗中介入事件并施展自身实力的存在。\r\n憧憬着“影之实力者”、每天过着不起眼的生活、为了追求力量而修行"
+  cover: https://lain.bgm.tv/pic/cover/l/39/96/329114_mB55b.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:08:23+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/329114
+  progress: 20
+  totalEpisodes: 20
+  year: '2022'
+  type: Anime
+- title: 堀与宫村 -piece-
+  originalTitle: ホリミヤ -piece-
+  description: "君がいて、みんながいて。僕らのピースが揃っていく。\r\nシリーズ累計800万部を突破した人気漫画「ホリミヤ」。\r\n2021年に待望のTVアニメ化、そして 2023年7月、前作では描かれなかった原作の人気エピソードなどをキャスト・スタッフが再集"
+  cover: https://lain.bgm.tv/pic/cover/l/75/b2/425992_kV5CF.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:08:00+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/425992
+  progress: 13
+  totalEpisodes: 13
+  year: '2023'
+  type: Anime
+- title: 堀与宫村
+  originalTitle: ホリミヤ
+  description: "堀京子既是美人又成绩优秀，在学校是班上的中心。但实际上，她代替忙碌的双亲，在放学后直接回家，专注于家务和照顾年幼的弟弟，是个持家型的高中生。某天，受伤的弟弟创太被陌生的男性送回了堀的家里。\r\n“堀同学”被这样称呼后和他交谈才发现，他实际上是"
+  cover: https://lain.bgm.tv/pic/cover/l/23/a2/315069_2zYW6.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:07:42+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/315069
+  progress: 13
+  totalEpisodes: 13
+  year: '2021'
+  type: Anime
+- title: 我想吃掉你的胰脏
+  originalTitle: 君の膵臓をたべたい
+  description: "她如此说了。\r\n“我想吃掉你的胰脏”\r\n\r\n春。\r\n晚开的樱花仍在绽放的4月。\r\n对他人毫无兴趣，总是独自一人读书的高中生“我”，在医院的等候室捡到了一册文库本。\r\n这本用手写的文字写着《共病文库》这一标题的书，是天真烂漫的班上人气王·山内"
+  cover: https://lain.bgm.tv/pic/cover/l/23/17/221736_hm0HO.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:07:12+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/221736
+  progress: 1
+  totalEpisodes: 1
+  year: '2018'
+  type: Anime
+- title: 义妹生活
+  originalTitle: 義妹生活
+  description: "高中生浅村悠太因父亲太一再婚，将与同龄少女绫濑沙季及其母亲亚季子在同一屋檐下生活。\r\n\r\n由于双方都经历过父母不和与离婚，\r\n对男女关系都很谨慎，他们约定以义兄妹的身份保持适当的距离。\r\n\r\n我对你没有任何期待，\r\n也请你不要对我抱有任何期"
+  cover: https://lain.bgm.tv/pic/cover/l/40/01/393037_I7mvN.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:06:45+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/393037
+  progress: 12
+  totalEpisodes: 12
+  year: '2024'
+  type: Anime
+- title: 不时轻声地以俄语遮羞的邻座艾莉同学
+  originalTitle: 時々ボソッとロシア語でデレる隣のアーリャさん
+  description: "久世政近的邻座坐着一位名叫艾莉莎的女孩，她总是对他投以冰冷的目光。\r\n然而，她偶尔会小声地用俄语对他撒娇……\r\n政近当然不会错过这些话。\r\n因为他竟然拥有着母语级别的俄语听力！\r\n\r\n艾莉莎误以为政近听不懂俄语，所以才偶尔在他面前流露出真实"
+  cover: https://lain.bgm.tv/pic/cover/l/7c/8e/424883_5X5X2.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:06:14+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/424883
+  progress: 12
+  totalEpisodes: 12
+  year: '2024'
+  type: Anime
+- title: 回复术士的重来人生
+  originalTitle: 回復術士のやり直し
+  description: "觉醒了“愈”之勇者的素质，开始与勇者们一同踏上拯救世界冒险之旅的少年·克亚路。\r\n然而，身为没有战斗能力的回复术士，等待着他的是能力遭到勇者们榨取，饱受虐待的每一天。\r\n自由和尊严被剥夺，连自我都快要失去的克亚路，某天恢复了理智，并抵达了“"
+  cover: https://lain.bgm.tv/pic/cover/l/c7/3f/295017_90As6.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-22T14:04:13+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/295017
+  progress: 12
+  totalEpisodes: 12
+  year: '2021'
+  type: Anime
+- title: 强风吹拂
+  originalTitle: 風が強く吹いている
+  description: "夜晚。如同逃跑一般奔驰在城市中的藏原走。他的侧面，突然有辆自行车冲来。素不相识的男子，对阿走发问了。“喂！你很喜欢跑步吧！”\r\n男子的名字是清濑灰二。 就这样，阿走在灰二的引导下，到达了名为竹青庄的老旧公寓。9名个性丰富的住民住在那里。阿走"
+  cover: https://lain.bgm.tv/pic/cover/l/d0/e0/248154_D8z6D.jpg
+  status: completed
+  rating: 0
+  updatedAt: '2025-02-20T18:01:54+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/248154
+  progress: 23
+  totalEpisodes: 23
+  year: '2018'
+  type: Anime
+- title: 魔女之旅
+  originalTitle: 魔女の旅々
+  description: "在某个地方有一位旅人。她的名字叫伊蕾娜。\r\n她是年纪轻轻就成为了最上位的“魔女”的才女。\r\n憧憬着小时候读过的旅行的故事，\r\n顺其自然地持续着随心所欲的长途旅行。\r\n在广大的世界里自由地穿行 ，遇见莫名其妙、可笑的人，\r\n或是见证到某人的美"
+  cover: https://lain.bgm.tv/pic/cover/l/99/17/292970_mxMxx.jpg
+  status: dropped
+  rating: 0
+  updatedAt: '2024-12-01T09:11:54+08:00'
+  source: Bangumi.tv
+  link: https://bgm.tv/subject/292970
+  progress: 1
+  totalEpisodes: 12
+  year: '2020'
+  type: Anime

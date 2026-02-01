@@ -2,6 +2,8 @@
 
 'use strict';
 
+const url_for = hexo.extend.helper.get('url_for').bind(hexo);
+
 hexo.extend.tag.register('github', (args) => {
   const repo = args[0];
   if (!repo || !repo.includes('/')) return '';
@@ -103,8 +105,8 @@ hexo.extend.tag.register('friends', () => {
   const friends = hexo.theme.config.friends || [];
   const friendsEle = friends.map(item => {
     return `
-      <a class="sea-friend-card" href="${item.link}" target="_blank">
-        <img class="sea-friend-avatar" src="${item.avatar}" alt="${item.name}" />
+      <a class="sea-friend-card" href="${url_for(item.link)}" target="_blank">
+        <img class="sea-friend-avatar" src="${url_for(item.avatar)}" alt="${item.name}" />
         <div class="sea-friend-content">
           <div class="sea-friend-name" title="${item.name}">${item.name}</div>
           <div class="sea-friend-desc" title="${item.desc}">${item.desc}</div>
@@ -129,7 +131,7 @@ hexo.extend.tag.register('mermaid', (args, content) => {
 
 hexo.extend.tag.register('btn', (args) => {
   const [url, text, color = 'primary'] = args;
-  return `<a class="sea-btn sea-btn-${color}" href="${url}" target="_blank"><span>${text}</span></a>`;
+  return `<a class="sea-btn sea-btn-${color}" href="${url_for(url)}" target="_blank"><span>${text}</span></a>`;
 });
 
 hexo.extend.tag.register('gallery', (args, content) => {
@@ -148,15 +150,15 @@ hexo.extend.tag.register('works', () => {
       <div class="sea-works-card">
         ${item.cover ?`<a
           class="sea-works-cover"
-          href="${item.link}"
+          href="${url_for(item.link)}"
           target="_blank"
         >
-          <img src="${item.cover}" alt="${item.name}" />
+          <img src="${url_for(item.cover)}" alt="${item.name}" />
         </a>` : ''}
         <div class="sea-works-content">
           <a
             class="sea-works-title"
-            href="${item.link}"
+            href="${url_for(item.link)}"
             target="_blank"
             title="${item.name}"
           >
