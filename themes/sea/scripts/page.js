@@ -70,3 +70,44 @@ hexo.extend.generator.register('anime_json', function (locals) {
     data: JSON.stringify(animeList)
   };
 });
+
+hexo.extend.generator.register('archive_json', function (locals) {
+  const posts = locals.posts.sort('-date').map(post => {
+    return {
+      title: post.title,
+      path: hexo.config.root + post.path,
+      date: post.date.format('YYYY-MM-DD'),
+      year: post.date.format('YYYY'),
+      day: post.date.format('MM-DD'),
+      tags: post.tags.map(tag => tag.name)
+    };
+  });
+
+  return {
+    path: 'archives/index.json',
+    data: JSON.stringify(posts)
+  };
+});
+
+hexo.extend.generator.register('index_json', function (locals) {
+  const posts = locals.posts.sort('-date').sort((a, b) => {
+    const aTop = a.pinned || a.top || 0;
+    const bTop = b.pinned || b.top || 0;
+    return bTop - aTop;
+  }).map(post => {
+    return {
+      title: post.title,
+      path: hexo.config.root + post.path,
+      date: post.date.format('YYYY-MM-DD'),
+      pinned: post.pinned || post.top || false,
+      abstract: post.abstract || hexo.util.truncate(hexo.util.stripHTML(post.content), { length: 300, separator: ' ' }),
+      categories: post.categories.map(cat => ({ name: cat.name, path: hexo.config.root + cat.path })),
+      tags: post.tags.map(tag => ({ name: tag.name, path: hexo.config.root + tag.path }))
+    };
+  });
+
+  return {
+    path: 'index.json',
+    data: JSON.stringify(posts)
+  };
+});

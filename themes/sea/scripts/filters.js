@@ -14,8 +14,8 @@ hexo.extend.filter.register('template_locals', locals => {
   const recommendedPosts = sortedPosts.filter(post => post.recommend === true); // 筛选推荐文章
 
   // 将结果保存到 locals 中，供模板使用
-  locals.recommendedPosts = recommendedPosts.slice(0, 5);
-  locals.recentPosts = sortedPosts.slice(0, 5);
+  locals.recommendedPosts = recommendedPosts.slice(0, 10);
+  locals.recentPosts = sortedPosts.slice(0, 10);
   locals.isLocalServer = hexo.env.cmd === 'server';
   return locals;
 });

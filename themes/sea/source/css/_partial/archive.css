@@ -2,6 +2,33 @@
   padding: 2rem;
 }
 
+.sea-archive-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed var(--sea-border);
+}
+
+.sea-archive-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.sea-archive-stat-item .num {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--sea-primary);
+}
+
+.sea-archive-stat-item .label {
+  font-size: 0.875rem;
+  color: var(--sea-text-light);
+}
+
 .sea-archive-container {
   display: flex;
   flex-direction: column;
@@ -29,6 +56,29 @@
   width: 15%;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+/* Vertical line for year header */
+.sea-archive-year-dot-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-image: linear-gradient(to bottom, var(--sea-border) 50%, transparent 50%);
+  background-size: 1px 4px;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.sea-archive-year-header:first-child .sea-archive-year-dot-container::before {
+  top: 50%;
+}
+
+.sea-archive-year-header:last-child .sea-archive-year-dot-container::before {
+  bottom: 50%;
 }
 
 .sea-archive-year-dot {
@@ -91,10 +141,6 @@
   z-index: 0;
 }
 
-.sea-archive-item:first-child .sea-archive-item-dot-container::before {
-  top: 50%;
-}
-
 .sea-archive-item:last-child .sea-archive-item-dot-container::before {
   bottom: 50%;
 }
@@ -154,4 +200,54 @@
   .sea-archive-item-tags {
     display: none;
   }
+}
+
+/* Loading Spinner */
+.sea-loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--sea-bg-soft);
+  border-top: 3px solid var(--sea-primary);
+  border-radius: 50%;
+  animation: sea-spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes sea-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#archive-load-more-sentinel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  min-height: 50px;
+}
+
+.sea-archive-no-more {
+  color: var(--sea-text-light);
+  font-size: 0.875rem;
+  padding: 1rem 0;
+}
+
+.sea-archive-error {
+  text-align: center;
+  color: var(--sea-text-light);
+}
+
+.sea-retry-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--sea-primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.sea-retry-btn:hover {
+  opacity: 0.8;
 }

@@ -1,17 +1,25 @@
+{% set indexLimit = theme.articles.per_page or 10 %}
+
 {{ partial('_partial/main/hero') }}
 
 {% if theme.home.posts == 'recommend' %}
   <h2 class="sea-index-title">
     {{ __('home.recommendedPosts') }}
   </h2>
-  {{ partial('_partial/post/post_list', {post_list: recommendedPosts}) }}
+  <div id="index-post-container" data-per-page="{{ indexLimit }}">
+    {{ partial('_partial/post/post_list', {post_list: recommendedPosts.slice(0, indexLimit)}) }}
+  </div>
 {% elif theme.home.posts == 'recent' %}
   <h2 class="sea-index-title">
     {{ __('home.recentPosts') }}
   </h2>
-  {{ partial('_partial/post/post_list', {post_list: recentPosts}) }}
+  <div id="index-post-container" data-per-page="{{ indexLimit }}">
+    {{ partial('_partial/post/post_list', {post_list: recentPosts.slice(0, indexLimit)}) }}
+  </div>
 {% else %}
 {% endif %}
+
+<div id="index-load-more-sentinel" style="height: 20px;"></div>
 
 <div class="sea-index-all-posts">
   <a class="sea-index-all-posts__link" href="{{ url_for(theme.articles.path) }}">
@@ -19,3 +27,5 @@
     {{ partial('svg/arrow_right') }}
   </a>
 </div>
+
+<script src="{{ url_for('js/index_load_more.js') }}"></script>

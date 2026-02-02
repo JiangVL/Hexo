@@ -1,29 +1,49 @@
-<div class="sea-page-card-wrapper sea-archive-card">
-  <div class="sea-archive-container">
+<div class="sea-page-card-wrapper sea-archive-card" data-root="{{ config.root }}" data-posts-count-label="{{ __('page.postsCount') }}">
+  <h1 class="sea-page-card-title">
+    {{ __('page.archive') }}
+  </h1>
+
+  <div class="sea-archive-stats">
+    <div class="sea-archive-stat-item">
+      <span class="num">{{ site.posts.length }}</span>
+      <span class="label">{{ __('page.postsCount') }}</span>
+    </div>
+    <div class="sea-archive-stat-item">
+      <span class="num">{{ site.categories.length }}</span>
+      <span class="label">{{ __('page.categories') }}</span>
+    </div>
+    <div class="sea-archive-stat-item">
+      <span class="num">{{ site.tags.length }}</span>
+      <span class="label">{{ __('page.tags') }}</span>
+    </div>
+  </div>
+
+  <div class="sea-archive-container" id="archive-container">
     {% set currentYear = '' %}
-    {% for post in page.posts.toArray() %}
+    {% set posts = site.posts.sort('-date').toArray() %}
+    {% set ssrLimit = 15 %}
+    {% for post in posts.slice(0, ssrLimit) %}
       {% set postYear = date(post.date, 'YYYY') %}
       {% if postYear !== currentYear %}
         {% set currentYear = postYear %}
-        <div class="sea-archive-year-group">
-          <div class="sea-archive-year-header">
-            <div class="sea-archive-year-text">{{ currentYear }}</div>
-            <div class="sea-archive-year-dot-container">
-               <div class="sea-archive-year-dot"></div>
-            </div>
-            <div class="sea-archive-year-count">
-               {% set yearCount = 0 %}
-               {% for p in page.posts.toArray() %}
-                 {% if date(p.date, 'YYYY') == currentYear %}
-                   {% set yearCount = yearCount + 1 %}
-                 {% endif %}
-               {% endfor %}
-               {{ yearCount }} {{ __('page.postsCount') }}
-            </div>
+        <div class="sea-archive-year-header" data-year="{{ currentYear }}">
+          <div class="sea-archive-year-text">{{ currentYear }}</div>
+          <div class="sea-archive-year-dot-container">
+             <div class="sea-archive-year-dot"></div>
           </div>
+          <div class="sea-archive-year-count">
+             {% set yearCount = 0 %}
+             {% for p in posts %}
+               {% if date(p.date, 'YYYY') == currentYear %}
+                 {% set yearCount = yearCount + 1 %}
+               {% endif %}
+             {% endfor %}
+             <span class="year-count-num">{{ yearCount }}</span> {{ __('page.postsCount') }}
+          </div>
+        </div>
       {% endif %}
 
-      <a href="{{ url_for(post.path) }}" class="sea-archive-item">
+      <a href="{{ url_for(post.path) }}" class="sea-archive-item" data-year="{{ postYear }}">
         <div class="sea-archive-item-date">{{ date(post.date, 'MM-DD') }}</div>
         <div class="sea-archive-item-dot-container">
           <div class="sea-archive-item-dot"></div>
@@ -35,13 +55,16 @@
           {% endfor %}
         </div>
       </a>
-
-      {% set nextPost = page.posts.toArray()[loop.index0 + 1] %}
-      {% if loop.last or (nextPost and date(nextPost.date, 'YYYY') !== currentYear) %}
-        </div>
-      {% endif %}
     {% endfor %}
+  </div>
+
+  <div id="archive-load-more-sentinel" style="height: 20px;"></div>
+  <div id="archive-loading" class="sea-loading-spinner" style="display: none;">
+    <div class="spinner"></div>
+  </div>
+  <div id="archive-no-more" style="display: none; text-align: center; padding: 20px; color: var(--sea-text-color-secondary);">
+    {{ __('page.noMore') | default('没有更多文章了') }}
   </div>
 </div>
 
-{{ partial('_partial/main/pagination') }}
+<script src="{{ url_for('js/archive.js') }}"></script>
