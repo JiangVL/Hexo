@@ -11,27 +11,25 @@ layout: page
 
 ### 本站信息
   ```
-    {
-			title: "晳粊",    
-			imgurl:
-				"https://www.zhbi.top/_astro/avatar.CyWaYkSr_qqU2U.webp",
-			desc: "人生如登高，山川日月在目，而晳粊之光，独照我心",
-			siteurl: "https://zhbi.top",
-			tags: ["Friends"],
+{
+-   name: 
+    avatar: https://www.zhbi.top/Hexo/images/avatar.webp
+    link: https://www.zhbi.top
+    desc:"人生如登高，山川日月在目，而晳粊之光，独照我心 "
   }
-  ```
+ ```
+
 
 ***
 
   ```
    {
-        title: "网站或博客的名称"
-        imgurl: 
-	        "网站头像或 Logo 的 URL 地址"
+        name: "网站或博客的名称"
+        avatar: "网站头像或 Logo 的 URL 地址"
+        link: "网站的 URL 地址"
         desc: "网站的简短描述"
-        siteurl: "网站的 URL 地址"
         tags: ["标签数组，用于分类（可选）"]    
-    }  
+    }   
   ```
 ### 申请方式
 #### 邮件标题
