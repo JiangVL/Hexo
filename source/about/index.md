@@ -1,6 +1,7 @@
 ---
 title: 关于
 layout: page
+comments: true
 ---
 
 #### 关于我  

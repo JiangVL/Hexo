@@ -18,6 +18,8 @@ menu:
     url: /
   - name: 归档
     url: /archives/
+  - name: 留言板
+    url: /guestbook/
   - name: 番剧
     url: /anime/
   - name: 足迹
@@ -63,7 +65,7 @@ footer:
 # 社交链接
 socialLink:
   - name: Bilibili
-    link: https://space.bilibili.com/701864046
+    link: https://space.bilibili.com/3546380473731473
   - name: RSS
     link: /atom.xml
 

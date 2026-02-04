@@ -18,6 +18,8 @@ menu:
     url: /
   - name: 归档
     url: /archives/
+  - name: 留言板
+    url: /guestbook/
   - name: 足迹
     url: /footprints/
   - name: 番剧
