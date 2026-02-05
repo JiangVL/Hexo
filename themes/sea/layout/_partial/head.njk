@@ -28,4 +28,7 @@
   </style>
 
   {{ js('js/theme_mode') }}
+  {% if theme.umami and theme.umami.enable %}
+    <script defer src="{{ theme.umami.src }}" data-website-id="{{ theme.umami.website_id }}"></script>
+  {% endif %}
 </head>

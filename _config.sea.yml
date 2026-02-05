@@ -69,6 +69,12 @@ socialLink:
   - name: RSS
     link: /atom.xml
 
+# Umami Analytics
+umami:
+  enable: true
+  src: https://cloud.umami.is/script.js
+  website_id: e2fd0190-7982-49f3-a604-8884f0053b0b
+
 # 主题色
 primaryColor: '#10b981'
 
